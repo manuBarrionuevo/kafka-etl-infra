@@ -1,7 +1,7 @@
 # kafka-etl-infra (Docker Compose)
 
 Infraestructura base para ETL/event-streaming:
-- Kafka + Zookeeper
+- Kafka
 - ksqlDB
 - Kafdrop (UI)
 - Prometheus + Grafana + cAdvisor + kafka_exporter
