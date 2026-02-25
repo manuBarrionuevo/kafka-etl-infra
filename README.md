@@ -105,3 +105,46 @@ Endpoint:
 Copiar el ejemplo:
 ```bash
 cp .env.example .env
+
+Variables principales:
+
+KAFKA_HOST_PORT (por defecto 9092)
+
+KAFKA_ADVERTISED_HOST (por defecto localhost)
+
+Puertos de UI/monitoring: KAFDROP_PORT, KSQLDB_PORT, PROM_PORT, GRAFANA_PORT, etc.
+
+
+Deploy (levantar todo)
+
+Opción 1 (recomendada):
+
+./scripts/deploy.sh
+
+Opción 2 (directo):
+
+docker compose up -d
+
+Ver estado:
+
+docker ps
+
+Bajar todo:
+
+docker compose down
+
+Endpoints rápidos
+
+Kafka: localhost:9092
+
+ksqlDB: http://localhost:8088
+
+Kafdrop: http://localhost:9000
+
+Prometheus: http://localhost:9090
+
+Grafana: http://localhost:3000
+
+cAdvisor: http://localhost:8080
+
+Kafka Exporter metrics: http://localhost:9308/metrics
