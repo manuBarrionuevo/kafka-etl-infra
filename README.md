@@ -103,7 +103,7 @@ Endpoint:
 ## Configuración (.env)
 
 Copiar el ejemplo:
-```bash
+
 cp .env.example .env
 
 Variables principales:
