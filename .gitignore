@@ -1,0 +1,56 @@
+# =====================
+# Docker / runtime
+# =====================
+.env
+.env.*
+docker-data/
+data/
+volumes/
+*.pid
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+log/
+
+# =====================
+# Grafana / Prometheus runtime (si alguna vez cambias a bind mounts)
+# =====================
+grafana-data/
+prometheus-data/
+
+# =====================
+# Editor / OS
+# =====================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# =====================
+# Bash / temp
+# =====================
+*.bak
+*.tmp
+
+# =====================
+# Node / Python (por si más adelante sumás ETL)
+# =====================
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# =====================
+# Terraform / infra futura (opcional, preventivo)
+# =====================
+.terraform/
+terraform.tfstate*
+.
